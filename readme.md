@@ -12,30 +12,30 @@ higher level controller. For example a PLC or PC.
 2. Update the arrays "pinsArrayDI" & "pinsArrayDO" with the pin_numbers of your board.
 You can use all of them as DI or DO. Or any combination such as:
 
-![Preview](https://github.com/rocadura/Arduino-Modbus_TCP_Server/blob/master/pics/boardDefines.jpg?raw=true)
+![Preview](https://github.com/rocadura/Arduino-ModbusIP_Server/blob/master/pics/boardDefines.jpg?raw=true)
 
 
 *Then Build and Load into the arduino board. Serial Monitor shows something like this:
 
-![Preview](https://github.com/rocadura/Arduino-Modbus_TCP_Server/blob/master/pics/Initialize_Serial.jpg?raw=true)
+![Preview](https://github.com/rocadura/Arduino-Modbus_IP_Server/blob/master/pics/Initialize_Serial.jpg?raw=true)
 
 *Use any ModbusTCP-Client to connect from your PC to the Arduino. Serial monitor should say "new client"
 
-![Preview](https://github.com/rocadura/Arduino-Modbus_TCP_Server/blob/master/pics/Modscan_Connect.jpg?raw=true)
+![Preview](https://github.com/rocadura/Arduino-Modbus_IP_Server/blob/master/pics/Modscan_Connect.jpg?raw=true)
 
 *Watch inputs and set outputs from the corresponding registers (1x, 2x, 3x, 4x). For example:
 
 *Set Coils  (0x) to Arduino Digital Outputs
-![Preview](https://github.com/rocadura/Arduino-Modbus_TCP_Server/blob/master/pics/DO.jpg?raw=true)
+![Preview](https://github.com/rocadura/Arduino-Modbus_IP_Server/blob/master/pics/DO.jpg?raw=true)
 
 *Read Arduino Digital inputs into Discrete Inputs registers (1x)
-![Preview](https://github.com/rocadura/Arduino-Modbus_TCP_Server/blob/master/pics/DI.jpg?raw=true)
+![Preview](https://github.com/rocadura/Arduino-Modbus_IP_Server/blob/master/pics/DI.jpg?raw=true)
 
 *Modbus Input Registers (3x)
-![Preview](https://github.com/rocadura/Arduino-Modbus_TCP_Server/blob/master/pics/AI.jpg?raw=true)
+![Preview](https://github.com/rocadura/Arduino-Modbus_IP_Server/blob/master/pics/AI.jpg?raw=true)
 
 *Modbus Holding Registers (4x)
-![Preview](https://github.com/rocadura/Arduino-Modbus_TCP_Server/blob/master/pics/AO.jpg?raw=true)
+![Preview](https://github.com/rocadura/Arduino-Modbus_IP_Server/blob/master/pics/AO.jpg?raw=true)
 
 
 ## SCALING ANALOG VALUES
