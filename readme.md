@@ -44,9 +44,9 @@ You can use all of them as DI or DO. Or any combination such as:
 
 ## SCALING ANALOG VALUES
 
-Analog values are scaled from 0 to 100,0% using an integer with 10x Gain. For Example:\
-- 1000 Modbus = 100% in Arduino\
-- 855 Modbus = 85,5% in Arduino\
+Analog values are scaled from 0 to 100,0% using an integer with 10x Gain. For Example:
+- 1000 Modbus = 100% in Arduino
+- 855 Modbus = 85,5% in Arduino
 - 151 Modbus = 15,1% in Arduino
 
 ## HARDWARE REQUIREMENTS:
